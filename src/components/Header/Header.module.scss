@@ -4,24 +4,34 @@
     background-color: #8c8477;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
+    
     
     .wrapper{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin: 0 30px;
         
-        .panel{
+        .menu{
+            .burger_button{
+                border: none;
+                text-align: center;
+                text-decoration: none;
+                cursor: pointer;
+                margin: 0;
+                background-color: transparent;
+                position: relative;
+            }
             
-           
+        }
+        .panel{
+           margin: 0;
            
 
             .panel_item{
                 display: inline-block;
-                
+                margin: 16px 0px 12px 30px;
+                cursor: pointer;
             }
         }
     }

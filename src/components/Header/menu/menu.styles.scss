@@ -1,0 +1,34 @@
+ .menu{
+     position: fixed;
+     width: 100vw;
+     height: 100vw;
+     top: 70px;
+     left: 0;
+     transform: translateX(-130%);
+     transition: all 0.4s;
+
+
+     .blur{
+         width: 100vw;
+         height: 100vw;
+         backdrop-filter: blur(2px);
+         position: absolute;
+
+         .menu_content{
+             height: 100%;
+             width: 30%;
+             background-color: black;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+           
+             .menu_header{
+                 font-size: 2rem;
+                 color: wheat   ;
+             }
+         }
+     }
+ }
+ .menu.active{
+    transform: translateX(0%);
+ }
