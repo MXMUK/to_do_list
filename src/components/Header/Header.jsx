@@ -8,7 +8,6 @@ import menuImg from '../../assets/img/icons/header_panel/menu.svg'
 
 import Menu from './menu/Menu.jsx'
 
-import items from './menu/items.js'
 
 function Header() {
 
@@ -21,7 +20,7 @@ function Header() {
             <button className={styles.burger_button} onClick={() => setMenuActive(!menuActive)}>
               <img src={menuImg} alt="icon" height='28'/>
             </button>
-            <Menu active={menuActive} setActive={setMenuActive} header={"burger menu"} items={items}/>
+            <Menu active={menuActive} setActive={setMenuActive}/>
         </div>
 
         <ul className={styles.panel}>

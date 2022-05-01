@@ -1,21 +1,18 @@
 import React from 'react'
 import './menu.styles.scss'
-export const Menu = ({header, items, active, setActive}) => {
+export const Menu = ({active, setActive}) => {
   return (
     <div className={active ? 'menu active' : 'menu'} onClick={() => setActive(false)}>
-        <div className="blur">
-            <div className="menu_content" onClick={e => e.stopPropagation()}>
-                <div className="menu_header">{header}</div>
+        <div className="menu_content" onClick={e => e.stopPropagation()}>
+                <div className="menu_header">Burger menu</div>
                 <ul>
-                    {items.map(item => 
-                        <li>
-                            <a href={item.href}>{item.value}</a> 
-                            <span className="material-icons">{item.icon}</span>
-                        </li>
-                    )}
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
                 </ul>
-            </div>
-        </div>
+         </div>
     </div>
   )
 }

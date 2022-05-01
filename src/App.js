@@ -1,6 +1,5 @@
 import Header from "./components/Header/Header";
 import Article from "./components/Article/Article";
-import  './components/general.scss'
 
 
 function App() {
