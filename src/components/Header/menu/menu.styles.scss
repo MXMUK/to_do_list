@@ -1,26 +1,26 @@
  .menu{
-     position: absolute;
+     position: fixed;
      width: 100vw;
      height:100%;
-     top: 60px;
+     top: 48px;
      left: 0;
      transform: translateX(-100%);
      transition: all 0.4s;
 
      .menu_content{
         height: 100%;
-        width: 20%;
-        background-color: #8c8477;
+        width: 23%;
+        background-color: #032030;
         display: flex;
         flex-direction: column;
         align-items: center;
       
         .menu_header{
             font-size: 2rem;
-            color: wheat   ;
+            color: #fff;
         }
         >ul{
-            color: wheat;
+            color: #ffff;
         }
     }
  }

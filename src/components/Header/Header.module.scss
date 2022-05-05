@@ -1,16 +1,19 @@
 
 .header{
    
-    background-color: #8c8477;
-    
+    background-color: #F71E35;
+    position: fixed;
+    width: 100vw;
     
     .wrapper{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin: 0 7%;
+        margin: 0 6%;
         
-        .menu{
+        
+        .menu_space{
+            display: flex;
             .burger_button{
                 border: none;
                 text-align: center;
@@ -19,16 +22,33 @@
                 margin: 0;
                 background-color: transparent;
                 position: relative;
+                
             }
             
+            
         }
+        .form{
+            .search_form{
+            
+                margin: 0 20px 0;
+                > input{
+                    height: 35px;
+                    width: 100%;
+                    border: none;
+                    border-radius: 5px;
+                    background-color: rgba(0, 0, 0, 0.1);
+                }
+    
+            }
+        }
+
         .panel{
            margin: 0;
            
 
             .panel_item{
                 display: inline-block;
-                margin: 16px 0px 12px 30px;
+                margin: 12px 0px 8px 30px;
                 cursor: pointer;
             }
         }

@@ -1,0 +1,12 @@
+
+dark |.
+
+.color1 {color: #D0DFE6;} - white
+.color2 {color: #F71E35;} - red
+.color3 {color: #1794A5;} - blue
+.color4 {color: #8c8477;}
+.color5 {color: #032030;} - darck blue
+
+
+
+light |'
