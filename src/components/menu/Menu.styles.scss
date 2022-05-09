@@ -1,13 +1,14 @@
  .menu{
-     position: fixed;
-     width: 100vw;
-     height:100%;
-     top: 48px;
-     left: 0;
-     transform: translateX(-100%);
-     transition: all 0.4s;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    width: 100vw;
+    height:100%;
+    top: 45px;
+    left: 0;
+    transform: translateX(-100%);
+    transition: all 0.4s;
 
-     .menu_content{
+    .menu_content{
         height: 100%;
         width: 23%;
         background-color: #032030;

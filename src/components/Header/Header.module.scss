@@ -1,53 +1,60 @@
 
 .header{
-   
+    font-family: 'Poppins', sans-serif;
     background-color: #F71E35;
     position: fixed;
     width: 100vw;
     z-index: 1;
     
+
     .wrapper{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 2fr 11fr 2fr;
         margin: 0 6%;
         
-        
         .menu_space{
+
             display: flex;
             .burger_button{
                 border: none;
-                text-align: center;
-                text-decoration: none;
                 cursor: pointer;
-                margin: 0;
                 background-color: transparent;
                 position: relative; 
             }
             
         }
-        .form{
-            .search_form{
-            
-                margin: 0 20px 0;
-                > input{
-                    height: 35px;
-                    width: 100%;
+        .form_wrapper{
+            display: flex;
+            align-items: center;
+            .search_field{
+                width: 100%;
+                >input{
                     border: none;
-                    border-radius: 5px;
-                    background-color: rgba(0, 0, 0, 0.1);
+                    height: 30px;
+                    width: 20em;
+                    border-radius: 15px;
+                    outline: none;
+                    background: rgba( 0,0,0,.3);
                 }
-    
+                >input::placeholder{
+                    color: #222;
+                    transition: color 0.3 ease;
+                }
             }
         }
 
         .panel{
-           margin: 0;
-           
-
+            display: flex;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            justify-content: flex-end;
             .panel_item{
-                display: inline-block;
-                margin: 12px 0px 8px 30px;
+                display: flex;
+                margin-left: 30px;
+                align-items: center;
+                list-style: none;
+                
+                
                 cursor: pointer;
             }
         }
