@@ -15,27 +15,5 @@
         background-color: aliceblue;
         width: 40px;
     }
-
-    .wrapper{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        .main{
-            display: flex;
-            
-            .item{
-                align-items: center; //vertical align in block
-                display: flex;
-                height: 200px;
-                width: 200px;
-                background: brown;
-                margin: 20px;
-            }
-        }
-    }
-    .wrapper_smaller{
-        width: 80%;
-    } 
 }
 

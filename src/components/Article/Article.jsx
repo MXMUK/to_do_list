@@ -7,6 +7,7 @@ function Article() {
   
 
   return (
+    <div>
     <div className={styles.article}>
       <div className={styles.wrapper}>
         {/*
@@ -17,7 +18,10 @@ function Article() {
         </div> 
 
         */}
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, dolor alias? Repellendus, commodi aut, labore delectus dolorem, illum recusandae et eos at magnam velit. Illo nobis obcaecati vitae excepturi consequuntur.
+      </div>
+     
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, dolor alias? Repellendus, commodi aut, labore delectus dolorem, illum recusandae et eos at magnam velit. Illo nobis obcaecati vitae excepturi consequuntur.
         Non assumenda fugit nesciunt quibusdam nobis adipisci, aspernatur odio sunt! Est praesentium dolores aperiam porro quisquam quidem, modi repudiandae recusandae ex eaque laboriosam ipsum iste doloremque fugit neque facilis delectus.
         Unde similique tempora, culpa ex voluptatibus error corporis quae labore. Eligendi aperiam quia ipsa omnis amet magni accusantium doloribus necessitatibus recusandae officiis itaque, autem provident corporis aspernatur sapiente iste illo?
         Temporibus non impedit consectetur voluptates architecto tenetur repudiandae quae tempora dolorum perspiciatis ipsam inventore culpa fugit voluptate quasi, deleniti cumque atque soluta voluptatum id velit excepturi quisquam! Ullam, incidunt debitis?
@@ -55,8 +59,7 @@ function Article() {
         Nobis reprehenderit repudiandae, quisquam, libero ratione odit assumenda necessitatibus laudantium voluptatem minima recusandae quasi. Iste distinctio velit harum laboriosam nihil odit officiis doloribus tempore ipsum, vitae dignissimos, atque accusamus nemo.
         Aperiam animi quaerat officia quos, rem amet eligendi laudantium aut blanditiis! Sequi voluptas modi maiores esse saepe sint harum adipisci, inventore fuga repudiandae placeat distinctio asperiores? Fugit ducimus quidem consequatur!
         Iste, architecto. Itaque, sunt. Velit molestiae sequi itaque quidem quis distinctio pariatur soluta odio at repellat ratione impedit officiis beatae, fugit blanditiis voluptates commodi. Esse inventore voluptates dolores aperiam fugit.
-        Voluptatum officia veritatis ab delectus fugit consequatur explicabo porro beatae cum repellat eos repellendus quod perferendis doloremque, reprehenderit quos suscipit nobis quasi ipsa error deserunt cumque illum necessitatibus earum. Architecto.
-      </div>
+        Voluptatum officia veritatis ab delectus fugit consequatur explicabo porro beatae cum repellat eos repellendus quod perferendis doloremque, reprehenderit quos suscipit nobis quasi ipsa error deserunt cumque illum necessitatibus earum. Architecto.</p>
     </div>
   )
 }
