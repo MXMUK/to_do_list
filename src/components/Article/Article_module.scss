@@ -1,8 +1,10 @@
 .article{
+    font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: flex-end;
-    padding-top: 50px;
+    padding-top: 48px;
     overflow-y: visible;
+    color: aliceblue;
     /***************************************************************
     Scroll
     ****************************************************************/
@@ -21,9 +23,11 @@
         align-items: center;
         justify-content: center;
         width: 100%;
+        transition: all 0.4s;
         .main{
             display: flex;
-            
+            margin: 0 5% 0 5%;
+            background-color: black;
             .item{
                 align-items: center; //vertical align in block
                 display: flex;
@@ -34,8 +38,8 @@
             }
         }
     }
-    .wrapper_smaller{
-        width: 80%;
+    .wrapper.smaller{
+        width: 77%;
     } 
 }
 

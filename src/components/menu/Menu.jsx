@@ -1,8 +1,10 @@
 import React from 'react'
-import './menu.styles.scss'
-export const Menu = ({active, setActive}) => {
+import './Menu.styles.scss'
+
+
+const Menu = ({active, setActive}) => {
   return (
-    <div className={active ? 'menu active' : 'menu'} onClick={() => setActive(false)}>
+    <div className={active ? 'menu active' : 'menu'} onClick={() => setActive(!active)}>
         <div className="menu_content" onClick={e => e.stopPropagation()}>
                 <div className="menu_header">Burger menu</div>
                 <ul>
@@ -16,4 +18,4 @@ export const Menu = ({active, setActive}) => {
     </div>
   )
 }
-export default Menu
+export default Menu;
