@@ -2,27 +2,16 @@
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: flex-end;
-    padding-top: 48px;
+    padding-top: 45px;
     overflow-y: visible;
     color: aliceblue;
-    /***************************************************************
-    Scroll
-    ****************************************************************/
-    &::-webkit-scrollbar-thumb{
-    background-color: black;
-    border-radius: 5px;
-    width: 20px;
-    }
-    &::-webkit-scrollbar-track{
-        background-color: aliceblue;
-        width: 40px;
-    }
+    
 
     .wrapper{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 100%;
+        
         transition: all 0.4s;
         .main{
             display: flex;
@@ -39,7 +28,7 @@
         }
     }
     .wrapper.smaller{
-        width: 77%;
+        padding-left: 450px;
     } 
 }
 
