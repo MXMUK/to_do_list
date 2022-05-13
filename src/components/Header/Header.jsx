@@ -6,7 +6,7 @@ import bellImg from '../../assets/img/icons/header_panel/bell.svg'
 import settingsImg from '../../assets/img/icons/header_panel/settings.svg'
 import menuImg from '../../assets/img/icons/header_panel/menu.svg'
 
-
+import Main from "../Main/Main";
 
 
 function Header({active, setActive}) {
@@ -26,9 +26,10 @@ function Header({active, setActive}) {
           <div className={styles.search_field}>
             <input type="text" placeholder='Search'/>
           </div>
+          
         </div>
 
-
+        
         <ul className={styles.panel}>
             <li className={styles.panel_item}><img src={plusImg} alt="icon" height='25'/></li>
             <li className={styles.panel_item}><img src={doneImg} alt="icon" height='25'/></li>

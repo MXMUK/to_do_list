@@ -26,18 +26,23 @@
         .form_wrapper{
             display: flex;
             align-items: center;
+            justify-content: space-between;
             .search_field{
                 width: 100%;
                 >input{
                     border: none;
-                    height: 30px;
+                    height: 35px;
                     width: 20em;
-                    border-radius: 15px;
+                    border-radius: 20px;
                     outline: none;
                     background: rgba( 0,0,0,.3);
+                    font-family: inherit;
+                    font-size: inherit;
+                    color: white;
+                    padding:  0 20px 0 20px;
                 }
                 >input::placeholder{
-                    color: #222;
+                    color: gray;
                     transition: color 0.3 ease;
                 }
             }

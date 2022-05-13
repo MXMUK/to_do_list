@@ -1,6 +1,6 @@
 import Header from "./components/Header/Header";
 import Article from "./components/Article/Article";
-import Main from "./components/Main/Main";
+
 import Menu from './components/menu/Menu.jsx'
 import React, { useState } from 'react'
 
@@ -15,7 +15,6 @@ function App() {
       </div>
       <Header active = {menuActive} setActive={setMenuActive}/>
       <Menu active={menuActive} setActive={setMenuActive}/>
-      <Main />
       <Article active={menuActive} setActive={setMenuActive}/>
     </div>
   );
