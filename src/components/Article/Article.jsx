@@ -9,6 +9,8 @@ function Article({active}) {
     <div className='article'>
         <div className={active ? 'wrapper smaller' : 'wrapper'}>
             <div className="main">
+                <div className="item"> </div>
+                <div className="item"></div>
                 
             </div>
         </div>

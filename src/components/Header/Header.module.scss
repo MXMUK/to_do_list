@@ -17,9 +17,14 @@
             display: flex;
             .burger_button{
                 border: none;
-                cursor: pointer;
+               
                 background-color: transparent;
                 position: relative; 
+                >svg{
+                    cursor: pointer;
+                    transition: 0.4s;
+                }
+                
             }
             
         }
@@ -38,11 +43,11 @@
                     background: rgba( 0,0,0,.3);
                     font-family: inherit;
                     font-size: inherit;
-                    color: white;
+                    color: #fff;
                     padding:  0 20px 0 20px;
                 }
                 >input::placeholder{
-                    color: gray;
+                    color: rgba( 0,0,0,.3);
                     transition: color 0.3 ease;
                 }
             }
@@ -58,10 +63,14 @@
                 margin-left: 30px;
                 align-items: center;
                 list-style: none;
-                
-                
                 cursor: pointer;
+                
+                >svg:hover{
+                    fill: #fff;
+                    transition: 0.3s;
+                }
             }
+            
         }
     }
 

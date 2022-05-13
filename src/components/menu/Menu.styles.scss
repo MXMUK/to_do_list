@@ -16,12 +16,19 @@
         flex-direction: column;
         align-items: center;
       
-        .menu_header{
-            font-size: 2rem;
-            color: #fff;
+        .calendar {
+            margin-top: 20px;
+            width: 100%;
+            height: 600px;
+            background: #fff;
         }
-        >ul{
-            color: #ffff;
+        .weather_module{    
+            margin-top: 100px;
+            width: 80%;
+            height: 80px;
+            padding: 10px;
+            background: #fff;
+            
         }
     }
  }

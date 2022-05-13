@@ -13,22 +13,26 @@
         justify-content: center;
         
         transition: all 0.4s;
+        width: 100%;
         .main{
             display: flex;
-            margin: 0 5% 0 5%;
-            background-color: gray;
+            padding: 2% 6% 0 6%;
+            
             .item{
-                align-items: center; //vertical align in block
-                display: flex;
-                height: 200px;
                 width: 200px;
-                background: brown;
-                margin: 20px;
+                height: 200px;
+                background-color: black;
+                margin: 40px;
+
+                 
             }
+             
+            
         }
     }
     .wrapper.smaller{
-        padding-left: 450px;
+        width: 100%;
+        padding-left: 20%;
     } 
 }
 
