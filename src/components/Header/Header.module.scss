@@ -1,10 +1,9 @@
 
 .header{
-    font-family: 'Poppins', sans-serif;
     background-color: #F71E35;
     position: fixed;
     width: 100vw;
-    z-index: 1;
+    z-index: 50;
     
 
     .wrapper{
@@ -34,6 +33,7 @@
             justify-content: space-between;
             .search_field{
                 width: 100%;
+                transition: 0.4s;
                 >input{
                     border: none;
                     height: 35px;
@@ -45,11 +45,14 @@
                     font-size: inherit;
                     color: #fff;
                     padding:  0 20px 0 20px;
+
+                    &::placeholder{
+                        color: rgba( 0,0,0,.3);
+                        transition: color 0.3 ease;
+                        user-select: none
+                    }
                 }
-                >input::placeholder{
-                    color: rgba( 0,0,0,.3);
-                    transition: color 0.3 ease;
-                }
+                
             }
         }
 
@@ -58,11 +61,14 @@
             margin-top: 10px;
             margin-bottom: 10px;
             justify-content: flex-end;
+            
             .panel_item{
+                position: static;
                 display: flex;
                 margin-left: 30px;
                 align-items: center;
                 list-style: none;
+                
                 cursor: pointer;
                 
                 >svg:hover{
@@ -76,4 +82,5 @@
 
 
 }
+
 

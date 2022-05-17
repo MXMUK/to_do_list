@@ -1,0 +1,47 @@
+.box{
+    background: #000;
+    color: #fff;
+    position: absolute;
+    right: calc(6% + 110px);
+    top: -200px;
+    height: 200px;
+    width: 300px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 49;
+
+
+    .title{
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+    }
+}
+
+
+
+@keyframes show-menu {
+    0%{
+        transform: translateY(-200px);
+    }
+    100%{
+        transform: translateY(245px);
+    }
+}
+
+
+
+.box.entering{
+    animation: show-menu .2s forwards;
+}
+
+.box.entered{
+   top: 45px;
+}
+
+.box.exiting{
+    animation: show-menu .2s reverse;
+}
+.box.exited{
+    top: -200px;
+}
