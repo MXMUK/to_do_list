@@ -50,7 +50,7 @@ function Header({active, setActive}) {
         </ul>
       </div>  
     </div>
-    <Transition
+    <Transition 
       in={PanelMenuVisible}
       timeout={200}
     >
