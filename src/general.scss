@@ -1,0 +1,17 @@
+*, 
+*::before, 
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #1794A5;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+  width: 0px;
+}

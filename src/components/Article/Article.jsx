@@ -1,14 +1,16 @@
 import React from 'react'
 
-import './Article_module.scss'
-import Main from "../Main/Main";
+import s from './Article.module.scss'
+
 
 
 function Article({active}) {
   return (
-    <div className='article'>
-        <div className={active ? 'wrapper smaller' : 'wrapper'}>
-            <div className="main">
+    <div className={s.article}>
+        <div className={active ? `${s.smaller} ${s.wrapper}` : s.wrapper}>
+            <div className={s.main}>
+                <div className={s.item}> </div>
+                <div className="item"></div>
                 
             </div>
         </div>

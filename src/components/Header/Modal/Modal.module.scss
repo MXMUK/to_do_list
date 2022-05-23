@@ -1,0 +1,91 @@
+.modal{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transform: scale(0);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.2s;
+    cursor: default;
+    
+    .modal_content{
+        margin-top: 6%;
+        background-color: #032030;
+        color: white;
+        width: 550px;
+        height: 170px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px black;
+        display: flex;
+        flex-direction: column ;
+       
+        cursor: default; 
+        
+        >input{
+            border: none;
+            outline: none;
+            background-color: transparent;
+            color: white;
+            
+            &[type="text"]{
+                
+            }
+            &::placeholder{
+                color: rgba( 255,255,255, .4);
+                user-select: none;
+                
+            }
+            
+        }
+        
+        .add_folder{
+            padding: 20px 20px 0 20px;
+            width: 100%;
+            font-size: 20px;
+        }
+        .add_tag{
+            padding: 10px 0 0    20px;
+            font-size: 12.5px;
+        }
+       
+        .buttons{
+            margin-top: 20px;
+            border-top: 1px solid rgba( 255,255,255, .4);
+            display: flex;
+            >button{
+                border-radius: 5px;
+                margin: 20px 10px 0 20px;
+                border: none;
+                padding: 5px;
+                font-size: 15px;
+                font-weight: 500;
+                cursor:pointer;
+                color: #032030;
+            }
+            .buttonAdd{
+                width: 100px;
+                background-color: #1794A5;
+            }
+            .buttonCancel{
+                width: 100px;
+                background-color: #F71E35;
+            }
+            .colorIcon{
+                cursor:pointer;
+                margin-left: 245px;
+                margin-top: 24px;
+            }
+        }
+    }
+    
+}
+
+.modal.active{
+    transform: scale(1);
+    opacity: 1;
+    pointer-events: all;
+}
